@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+
+label{
+width: 120px;
+display: inline-block;
+}
+
+.last_conteiner{
+display: inline-flex;
+}
+</style>
+    <div align =center style="width: 350px; padding: 0 100px;">   
+
+
+        <form name="Форма регистрации">  
+
+        <div> 
+            <p><strong style="color: red;"> Форма регестрации</strong> </p>
+        </div>
+
+        <div>
+            <label>Имя </label>
+                <input type="text" name = "UserName">
+        </div><br>
+        <div>
+            <label>e-mail </label>
+            <input type="text" name = "mail">
+        </div><br>
+        <div>
+            <label >Пароль: </label>
+            <input type="text" name = "password"><br>
+        </div><br>
+
+        <div>
+            <label >Повтор пароля: </label>
+            <input type="text" name = "return_password"><br>
+        </div><br>
+
+    
+<div>
+
+
+    <label>Пол</label>
+    
+        <input type="radio" name="choiceGender" value="1"> Мужской
+        <input type="radio" name="choiceGender" value="2"> Женский
+</div>
+    <br>
+<div>
+    <label style="vertical-align: top;">Увлечения</label>
+    <select name="hobbies" multiple size="3">
+        <option>Компьютерные игры</option>
+        <option>Книги</option>
+        <option>Спорт</option>
+        <option>Растения</option>
+        <option>животные</option>
+        <option>кодерство</option>
+    </select>
+    
+</div><br>
+<div class="last_conteiner" >
+    <label  >Ваши пожелания</label>
+    <textarea name="message" rows="3"></textarea>
+</div><br>
+<div><br>
+
+    <label style="display: inline;">С условиями регистрации ознакомлен</label>
+    <input type="checkbox" name="agreement">
+</div><br>
+<div>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Очистить">
+</div>
+
+
+
+
+    </div>
+
+
+</body>
+</html>
