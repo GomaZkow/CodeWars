@@ -1,9 +1,9 @@
 <?php
 function removeEveryOther($array): array {//принимаем значения
-    $lengthh = count($array);//берем длинну вводного масива
+    $length = count($array);//берем длинну вводного масива
     $newArray = []; //создаем новый массив
 $index = 1;
-    for ($i = 0; $i < $lengthh; $i++) {//проходим циклом по длинне
+    for ($i = 0; $i < $length; $i++) {//проходим циклом по длинне
         if($i%2==0){//входим в ветвление если индекс четный
 
 
